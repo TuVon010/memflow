@@ -1,0 +1,30 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # 遵循 Effective Dart 规范
+    - always_declare_return_types
+    - avoid_dynamic_calls
+    - avoid_empty_else
+    - avoid_print
+    - avoid_redundant_argument_values
+    - avoid_void_async
+    - cancel_subscriptions
+    - constant_identifier_names
+    - empty_statements
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - prefer_final_locals
+    - prefer_single_quotes
+    - require_trailing_commas
+    - sort_child_properties_last
+    - unawaited_futures
+    - use_key_in_widget_constructors
+    - use_super_parameters
+
+analyzer:
+  errors:
+    invalid_annotation_target: ignore
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
